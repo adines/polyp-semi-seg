@@ -27,17 +27,17 @@ we will compare three different methods:Data Distillation, Model Distillation an
 ### Data Distillation
 In the case of Data Distillation, (1) a base model is trained, (2) this model is used to label new images using multiple transformations of the image, and (3) a new model is trained in both, the initial labelled images and the automatically annotated images in (2).
 
-![workflow](assets/DataDitillation.svg)
+![workflow](assets/DataDistillation.svg)
 
 ### Model Distillation
 In the case of Model Distillation (1) several models are trained in the initial annotated images, (2) these model are ensembled to label new images, and (3) a new model is trained in both, the initial labelled images and the automatically annotated images in (2).
 
-![workflow](assets/ModelDitillation.svg)
+![workflow](assets/ModelDistillation.svg)
 
 ### Data & Model Distillation
 Both techniques can also be combined in a technique called Data & Model Distillation.
 
-![workflow](assets/DataModelDitillation.svg)
+![workflow](assets/DataModelDistillation.svg)
 
 
 ## Results
